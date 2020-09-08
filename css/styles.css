@@ -17,3 +17,9 @@ header {
   height: 200px;
   margin-bottom: 5px;
 }
+
+main {
+  background-color:	rgb(218,112,214);
+  height: 500px;
+  margin-bottom: 5px;
+}
