@@ -18,8 +18,24 @@ header {
   margin-bottom: 5px;
 }
 
+/* Main */
+
 main {
   background-color:	rgb(218,112,214);
   height: 500px;
   margin-bottom: 5px;
+}
+
+main .contenuto1 {
+  
+}
+
+
+
+
+/* Footer */
+
+footer {
+  background-color: rgb(100,149,237);
+  height: 200px;
 }
