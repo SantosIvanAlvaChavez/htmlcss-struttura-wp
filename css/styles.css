@@ -1,0 +1,19 @@
+/* General Style */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+}
+
+/* Header */
+
+header {
+  background-color: rgb(255,255,0);
+  height: 200px;
+  margin-bottom: 5px;
+}
