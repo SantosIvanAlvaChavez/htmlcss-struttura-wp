@@ -21,16 +21,44 @@ header {
 /* Main */
 
 main {
-  background-color:	rgb(218,112,214);
-  height: 500px;
+  background-color:	rgb(230,230,250);
+  height: 400px;
   margin-bottom: 5px;
 }
 
-main .contenuto1 {
-  
+main::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
+.colonna {
+  float: left;
+}
 
+main .contenuto1 {
+  width: 27%;
+  height: 300px;
+  margin-right: 3%;
+  background-color: rgb(218,112,214);
+}
+
+main .contenuto2 {
+  width: 40%;
+  height: 400px;
+  background-color: rgb(128,0,128);
+}
+
+main .contenuto3 {
+  width: 27%;
+  margin-left: 3%;
+}
+
+.right {
+  background-color: rgb(218,112,214);
+  margin-bottom: 10px;
+  height: 180px;
+}
 
 
 /* Footer */
